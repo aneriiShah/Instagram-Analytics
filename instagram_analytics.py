@@ -24,7 +24,7 @@ def login_to_instagram(username, password):
     
     return api
 
-api = login_to_instagram('statefarm53','P?f;?YGK7tSrXxy')
+api = login_to_instagram('username','password')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %pip install instaloader
@@ -33,8 +33,8 @@ import instaloader
 # Get instance
 L = instaloader.Instaloader()
 figs = []
-USER = 'statefarm53'
-PASSWORD = "P?f;?YGK7tSrXxy"
+USER = 'username'
+PASSWORD = "password"
 # Login or load session
 L.login(USER, PASSWORD)        # (login)
 #L.interactive_login(USER)      # (ask password on terminal)
